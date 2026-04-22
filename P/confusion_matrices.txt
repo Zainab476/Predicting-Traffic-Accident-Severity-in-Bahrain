@@ -1,0 +1,127 @@
+=== Logistic Regression ===
+Confusion Matrix and Statistics
+
+          Reference
+Prediction Fatal Serious Slight
+   Fatal       0       0      0
+   Serious     0       0      0
+   Slight   1789    5428  28782
+
+Overall Statistics
+                                          
+               Accuracy : 0.7995          
+                 95% CI : (0.7953, 0.8036)
+    No Information Rate : 0.7995          
+    P-Value [Acc > NIR] : 0.5032          
+                                          
+                  Kappa : 0               
+                                          
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: Fatal Class: Serious Class: Slight
+Sensitivity                0.0000         0.0000        1.0000
+Specificity                1.0000         1.0000        0.0000
+Pos Pred Value                NaN            NaN        0.7995
+Neg Pred Value             0.9503         0.8492           NaN
+Prevalence                 0.0497         0.1508        0.7995
+Detection Rate             0.0000         0.0000        0.7995
+Detection Prevalence       0.0000         0.0000        1.0000
+Balanced Accuracy          0.5000         0.5000        0.5000
+
+=== LDA ===
+Confusion Matrix and Statistics
+
+          Reference
+Prediction Fatal Serious Slight
+   Fatal       0       0      0
+   Serious     0       0      0
+   Slight   1789    5428  28782
+
+Overall Statistics
+                                          
+               Accuracy : 0.7995          
+                 95% CI : (0.7953, 0.8036)
+    No Information Rate : 0.7995          
+    P-Value [Acc > NIR] : 0.5032          
+                                          
+                  Kappa : 0               
+                                          
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: Fatal Class: Serious Class: Slight
+Sensitivity                0.0000         0.0000        1.0000
+Specificity                1.0000         1.0000        0.0000
+Pos Pred Value                NaN            NaN        0.7995
+Neg Pred Value             0.9503         0.8492           NaN
+Prevalence                 0.0497         0.1508        0.7995
+Detection Rate             0.0000         0.0000        0.7995
+Detection Prevalence       0.0000         0.0000        1.0000
+Balanced Accuracy          0.5000         0.5000        0.5000
+
+=== QDA ===
+Confusion Matrix and Statistics
+
+          Reference
+Prediction Fatal Serious Slight
+   Fatal       0       0      0
+   Serious     0       0      0
+   Slight   1789    5428  28782
+
+Overall Statistics
+                                          
+               Accuracy : 0.7995          
+                 95% CI : (0.7953, 0.8036)
+    No Information Rate : 0.7995          
+    P-Value [Acc > NIR] : 0.5032          
+                                          
+                  Kappa : 0               
+                                          
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: Fatal Class: Serious Class: Slight
+Sensitivity                0.0000         0.0000        1.0000
+Specificity                1.0000         1.0000        0.0000
+Pos Pred Value                NaN            NaN        0.7995
+Neg Pred Value             0.9503         0.8492           NaN
+Prevalence                 0.0497         0.1508        0.7995
+Detection Rate             0.0000         0.0000        0.7995
+Detection Prevalence       0.0000         0.0000        1.0000
+Balanced Accuracy          0.5000         0.5000        0.5000
+
+=== KNN ===
+Confusion Matrix and Statistics
+
+          Reference
+Prediction Fatal Serious Slight
+   Fatal       0       0      0
+   Serious     0       0      2
+   Slight   1789    5428  28780
+
+Overall Statistics
+                                          
+               Accuracy : 0.7995          
+                 95% CI : (0.7953, 0.8036)
+    No Information Rate : 0.7995          
+    P-Value [Acc > NIR] : 0.5137          
+                                          
+                  Kappa : -1e-04          
+                                          
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: Fatal Class: Serious Class: Slight
+Sensitivity                0.0000      0.000e+00        0.9999
+Specificity                1.0000      9.999e-01        0.0000
+Pos Pred Value                NaN      0.000e+00        0.7995
+Neg Pred Value             0.9503      8.492e-01        0.0000
+Prevalence                 0.0497      1.508e-01        0.7995
+Detection Rate             0.0000      0.000e+00        0.7995
+Detection Prevalence       0.0000      5.556e-05        0.9999
+Balanced Accuracy          0.5000      5.000e-01        0.5000

@@ -1,0 +1,5 @@
+"Model","Accuracy"
+"Logistic Regression",0.7995
+"LDA",0.7995
+"QDA",0.7995
+"KNN",0.7995
